@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <section className="bg-white">
+    <section className="">
       <div className="container mx-[80px] flex items-center">
         <div className="max-w-[700px] mt-[83px] mr-[80px]">
           <h1 className="text-[72px] font-bold text-gray-900 mb-8">
