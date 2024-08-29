@@ -8,8 +8,8 @@ export default {
     extend: {
       colors: {
         brown: {
-          700: '#7B4F3F', // Navbar'da kullanılan koyu kahverengi
-          500: '#A0522D', // Hover renk tonu için biraz daha açık kahverengi
+          700: '#7B4F3F', 
+          500: '#A0522D', 
         },
       },
       fontFamily: {
