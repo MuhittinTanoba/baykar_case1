@@ -5,17 +5,17 @@ const FeatureSection = () => {
     {
       title: "Nibh viverra",
       description: "Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.",
-      icon: "./src/assets/img/icon1.png",
+      icon: "./src/assets/img/feature/Icon-1.png",
     },
     {
       title: "Cursus amet",
       description: "Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.",
-      icon: "./src/assets/img/icon2.png",
+      icon: "./src/assets/img/feature/Icon-1.png",
     },
     {
       title: "Ipsum fermentum",
       description: "Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.",
-      icon: "./src/assets/img/icon3.png",
+      icon: "./src/assets/img/feature/Icon-1.png",
     },
   ];
 
@@ -25,8 +25,8 @@ const FeatureSection = () => {
         <div className="flex justify-between">
           {features.map((feature, index) => (
             <div key={index} className="max-w-xs text-left">
-              <img src={feature.icon} alt={feature.title} className="mx-auto mb-4" />
-              <h3 className="text-xl font-bold text-gray-900 mb-2">{feature.title}</h3>
+              <img src={feature.icon} alt={feature.title} className="ml-0 mx-auto mb-4" />
+              <h3 className="text-xl font-bold text-gray-900 mb-4">{feature.title}</h3>
               <p className="text-gray-600">{feature.description}</p>
             </div>
           ))}
