@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection';
 import FeatureSection from './components/FeatureSection';
 import './App.css'; 
 import BestSection from './components/BestSection';
+import WhyJoinUs from './components/WhyJoinUsSection';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <FeatureSection />
       </div>
       <BestSection />
+      <WhyJoinUs />
     </div>
   );
 }
