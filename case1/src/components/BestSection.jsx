@@ -12,12 +12,31 @@ function BestSection() {
         </button>
       </div>
       <div className="px-[35px] pb-[55px]">
-        <div className="px-[45px] pb-[25px] pt-[30px]">
+        <div className="relative px-[45px] pb-[25px] pt-[30px]">
+          {/* Backlights */}
+          <div
+            className='absolute inset-0 bg-pink-700 rounded-[50px] opacity-75 w-[270px] h-[270px] ml-2 mt-[176px]'
+          />
+          <div
+            className='absolute inset-0 bg-blue-700 rounded-[50px] opacity-75 w-[161px] h-[161px] ml-[460px]'
+          />
+          <div
+            className='absolute inset-0 bg-brown-500 rounded-[30px] opacity-75 w-[130px] h-[130px] ml-[755px] mt-[325px]'
+          />
+          <div
+            className='absolute inset-0 bg-purple-500 rounded-[30px] opacity-75 w-[202px] h-[202px] ml-[1017px] mt-[315px]'
+          />
+          <div
+            className='absolute inset-0 bg-green-900 rounded-[50px] opacity-75 w-[202px] h-[202px] mr-0 ml-auto mt-[64px]'
+          />
+
+
+          {/* Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {[1, 2, 3].map((_, index) => (
               <div
                 key={index}
-                className="relative bg-blue-950 rounded-lg shadow-2xl shadow-slate-400 overflow-hidden"
+                className="relative bg-blue-950 rounded-lg shadow-2xl shadow-slate-500 overflow-hidden"
               >
                 <img
                   src={`./src/assets/img/bestSection/card-image-${
