@@ -5,6 +5,7 @@ import FeatureSection from './components/FeatureSection';
 import './App.css'; 
 import BestSection from './components/BestSection';
 import WhyJoinUs from './components/WhyJoinUsSection';
+import Testimonials from './components/TestimonialsSection';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       </div>
       <BestSection />
       <WhyJoinUs />
+      <Testimonials />
+      
     </div>
   );
 }
