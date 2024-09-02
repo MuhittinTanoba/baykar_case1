@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'wave-pattern': "url('./src/assets/img/collection/Waves.png')",
+     },
       colors: {
         brown: {
           700: '#7B4F3F', 

@@ -6,6 +6,7 @@ import './App.css';
 import BestSection from './components/BestSection';
 import WhyJoinUs from './components/WhyJoinUsSection';
 import Testimonials from './components/TestimonialsSection';
+import CollectionSection from './components/CollectionSection';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <BestSection />
       <WhyJoinUs />
       <Testimonials />
+      <CollectionSection />
       
     </div>
   );
