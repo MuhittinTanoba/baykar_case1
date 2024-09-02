@@ -7,6 +7,7 @@ import BestSection from './components/BestSection';
 import WhyJoinUs from './components/WhyJoinUsSection';
 import Testimonials from './components/TestimonialsSection';
 import CollectionSection from './components/CollectionSection';
+import MapSection from './components/MapSection';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       <WhyJoinUs />
       <Testimonials />
       <CollectionSection />
+      <MapSection />
       
     </div>
   );

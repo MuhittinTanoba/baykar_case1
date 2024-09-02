@@ -13,6 +13,7 @@ export default {
         brown: {
           700: '#7B4F3F', 
           500: '#A0522D', 
+          "map": "#78350f"
         },
       },
       fontFamily: {
