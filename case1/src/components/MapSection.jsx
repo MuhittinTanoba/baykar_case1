@@ -34,7 +34,7 @@ function MapSection() {
             alt="Cool Shoes"
             className="w-full h-auto rounded-t-lg"
           />
-          <div className="p-2 md:p-4 text-center bg-gray-200">
+          <div className="p-2 md:p-4 text-center bg-[#E2E8F0] rounded-[5px]">
             <p className="text-black text-xs md:text-base">Emma Simpson collected one pair of Cool Shoes</p>
           </div>
           
