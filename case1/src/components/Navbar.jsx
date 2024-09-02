@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white">
+    <nav className="bg-white overflow-x-hidden">
       <div className="flex justify-between items-center px-8 ml-8 py-4">
         <div className="text-3xl font-bold text-brown-700">Collers</div>
         <div className="md:hidden" onClick={toggleMenu}>

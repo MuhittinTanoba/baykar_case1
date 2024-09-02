@@ -12,10 +12,10 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App overflow-x-hidden">
       <Navbar />
       <div className='relative'>
-        <div className="triangle-bg "></div>
+        <div className="triangle-bg"></div>
         <HeroSection />
         <FeatureSection />
       </div>
@@ -23,14 +23,7 @@ function App() {
       <WhyJoinUs />
       <Testimonials />
       <CollectionSection />
-
-      {
-        /*
-
       <MapSection />
-        */ 
-      }
-
       <Footer />
     </div>
   );

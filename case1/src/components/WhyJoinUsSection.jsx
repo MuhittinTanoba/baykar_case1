@@ -2,7 +2,7 @@ import React from "react";
 
 function WhyJoinUs() {
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative">
       {/* Arka plandaki renkli şekiller */}
       <div className="absolute top-36 md:top-0 md:left-0 w-full h-full flex justify-end items-center z-0">
         <img

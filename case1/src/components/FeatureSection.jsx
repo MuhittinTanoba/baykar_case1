@@ -20,7 +20,7 @@ const FeatureSection = () => {
   ];
 
   return (
-    <section className="mt-12 md:mt-20">
+    <section className="mt-12 md:mt-20 overflow-x-hidden">
       <div className="container mx-auto py-10 px-4 md:px-10 lg:px-20">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (

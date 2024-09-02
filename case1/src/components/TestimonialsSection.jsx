@@ -47,7 +47,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section>
+    <section className="overflow-x-hidden">
       <div className="flex mb-10 mt-20 mx-20 justify-between">
         <h2 className="text-[28px] md:text-[56px] font-extrabold text-gray-800">
           Because they love us

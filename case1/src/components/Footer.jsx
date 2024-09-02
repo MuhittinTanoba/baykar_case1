@@ -68,14 +68,14 @@ const Footer = () => {
         <hr className="my-8 border-gray-700" />
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm">Collers @2023. All rights reserved.</p>
-          <div className="items-center space-x-1 mt-4">
+          <div className="flex items-center space-x-8 mt-4">
             <a href="#" className="text-sm">Terms</a>
             <a href="#" className="text-sm">Privacy</a>
             <a href="#" className="text-sm">Contact</a>
-            <div className="flex items-center justify-center">
-              <a href="#"><CiGlobe className="w-6 h-6 mr-[10px]" /></a>
-              <a href="#" className="text-sm">EN</a>
-            </div>
+            <a href="#" className="flex items-center space-x-1 text-sm">
+              <CiGlobe className="w-6 h-6" />
+              <span>EN</span>
+            </a>
           </div>
         </div>
       </div>

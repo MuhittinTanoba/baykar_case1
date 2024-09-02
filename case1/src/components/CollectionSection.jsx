@@ -10,7 +10,7 @@ function CollectionSection() {
   ];
 
   return (
-    <section>
+    <section className="overflow-x-hidden">
       <div className="mx-20 mt-20">
         <h2 className="text-[56px] font-extrabold">Grow your collection</h2>
         <p className="mt-8 text-lg">
@@ -22,11 +22,11 @@ function CollectionSection() {
       </div>
 
       <div className="bg-wave-pattern bg-no-repeat bg-cover ">
-        <div className="flex mx-20 mt-20">
+        <div className="flex flex-col md:flex-row md:mx-20 mt-20">
           <div className="flex flex-col">
-            <div className="grid grid-rows-6">
+            <div className="md:grid md:grid-rows-6 gap-12 md:gap-0 flex flex-row overflow-y-auto">
               <div className="row-span-1">
-                <div className="flex justify-start items-center py-4 px-4 mb-4">
+                <div className="flex items-center md:py-4 md:px-4 mb-4">
                   <img
                     src="./src/assets/img/collection/search.png"
                     alt="Podcast"
@@ -37,18 +37,18 @@ function CollectionSection() {
                   </p>
                   <img
                     src="./src/assets/img/collection/arrow-right.png"
-                    alt="Podcast"
-                    className="w-6 h-6"
+                    alt="Arrow"
+                    className="md:w-6 md:h-6 hidden"
                   />
                 </div>
               </div>
 
               {buttons.map((button, index) => (
-                <div key={index} className="row-span-1">
-                  <div className="flex justify-start items-center py-4 px-4 mb-4">
+                <div key={index} className="row-span-1 over">
+                  <div className="flex items-center md:py-4 md:px-4 mb-4">
                     <img
                       src={`./src/assets/img/collection/${button.icon}.png`}
-                      alt={`${button.text}}`}
+                      alt={button.text}
                       className="w-6 h-6"
                     />
                     <p className="text-[20px] font-medium pl-4 pr-2">
@@ -60,8 +60,12 @@ function CollectionSection() {
             </div>
           </div>
 
-          <div className="flex flex-col items-center ml-20">
-            <img src="./src/assets/img/collection/Col.png" alt="Collection" />
+          <div className="flex flex-col items-center mt-8 md:mt-0 md:ml-20">
+            <img
+              src="./src/assets/img/collection/Col.png"
+              alt="Collection"
+              className="w-full max-w-xs md:max-w-5xl"
+            />
           </div>
         </div>
       </div>
