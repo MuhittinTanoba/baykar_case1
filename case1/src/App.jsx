@@ -8,6 +8,7 @@ import WhyJoinUs from './components/WhyJoinUsSection';
 import Testimonials from './components/TestimonialsSection';
 import CollectionSection from './components/CollectionSection';
 import MapSection from './components/MapSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -23,7 +24,7 @@ function App() {
       <Testimonials />
       <CollectionSection />
       <MapSection />
-      
+      <Footer />
     </div>
   );
 }
