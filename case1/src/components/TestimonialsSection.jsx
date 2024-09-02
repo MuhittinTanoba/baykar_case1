@@ -10,6 +10,13 @@ import "swiper/css/scrollbar";
 const Testimonials = () => {
   const testimonials = [
     {
+      company: "kontrastr",
+      text: "Amet morbi enim sodales quis dui, in habitant pharetra. Risus id fringilla sed adipiscing volutpat sit varius turpis. Sed pretium se.",
+      author: "Ralph Edwards",
+      role: "Product Designer",
+      image: "./src/assets/img/testimonials/User Thumb-4.png",
+    },
+    {
       company: "Zoomerr",
       text: "Non risus viverra enim, quis. Eget vitae arcu vivamus sit tellus, viverra turpis lorem. Varius a turpis urna id porttitor.",
       author: "Hellen Jummy",
@@ -31,25 +38,18 @@ const Testimonials = () => {
       image: "./src/assets/img/testimonials/User Thumb-2.png",
     },
     {
-      company: "ArtVenue",
-      text: "A eget sed posuere dui risus habitasse mauris. Venenatis aliquet id ultrices a lacus. Pretium vehicula pretium posuere justo sed.",
-      author: "David Oshodi",
-      role: "Manager",
-      image: "./src/assets/img/testimonials/User Thumb-2.png",
-    },
-    {
-      company: "ArtVenue",
-      text: "A eget sed posuere dui risus habitasse mauris. Venenatis aliquet id ultrices a lacus. Pretium vehicula pretium posuere justo sed.",
-      author: "David Oshodi",
-      role: "Manager",
-      image: "./src/assets/img/testimonials/User Thumb-2.png",
-    },
+      company: "WAVES",
+      text: "Magna egestas aliquet ut integer non. Sed diam enim nibh sit. Aliquam laoreet aenean metus nibh eu scelerisque.",
+      author: "Charolette Hanlin",
+      role: "CEO",
+      image: "./src/assets/img/testimonials/User Thumb-5.png",
+    }
   ];
 
   return (
     <section className="overflow-x-hidden">
       <div className="flex mb-10 mt-20 mx-20 justify-between">
-        <h2 className="text-[28px] md:text-[56px] font-extrabold text-gray-800">
+        <h2 className="text-[28px] md:text-[56px] font-extrabold text-black-primary">
           Because they love us
         </h2>
         <div className="hidden md:flex justify-center items-center gap-6">
@@ -66,27 +66,27 @@ const Testimonials = () => {
         </div>
       </div>
 
-      <div className="bg-yellow-200 relative">
+      <div className="bg-[#FDE68A] relative">
         <div className="absolute bottom-0 w-full h-1/6 bg-white"></div>
         <div className="absolute start-0 h-full w-[40px] bg-white"></div>
         <div className="absolute end-0 h-full w-[40px] bg-white"></div>
 
         <Swiper
           modules={[Navigation, FreeMode]}
-          spaceBetween={16} // Adjust space between slides
-          slidesPerView={1} // Ensure only one slide is visible at a time
+          spaceBetween={16}
+          slidesPerView={1}
           freeMode={true}
           breakpoints={{
             640: {
-              slidesPerView: 1, // 1 slide per view on mobile devices
+              slidesPerView: 1, 
               spaceBetween: 16,
             },
             768: {
-              slidesPerView: 2, // 2 slides per view on tablets
+              slidesPerView: 2,
               spaceBetween: 24,
             },
             1024: {
-              slidesPerView: 3, // 3 slides per view on larger screens
+              slidesPerView: 3,
               spaceBetween: 24,
             },
           }}
@@ -96,7 +96,7 @@ const Testimonials = () => {
             <SwiperSlide key={index} className="flex justify-center">
               <div className="p-6 mt-10 py-4 shadow-xl bg-white border-[3px] rounded-[20px]">
                 <div className="mx-8 mt-8">
-                  <h3 className="text-2xl font-bold py-[3px]">
+                  <h3 className="text-2xl font-bold py-[3px] text-gray-primary">
                     {testimonial.company}
                   </h3>
                 </div>

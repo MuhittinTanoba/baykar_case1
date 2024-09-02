@@ -2,7 +2,7 @@ import React from "react";
 
 function BestSection() {
   return (
-    <section className="bg-blue-950 overflow-hidden">
+    <section className="bg-black-primary overflow-hidden">
       <div className="flex flex-col md:flex-row justify-between items-center p-6 md:p-20 pb-[50px]">
         <h2 className="text-white text-[32px] md:text-[56px] font-extrabold mb-4 md:mb-0">
           The best of the best
@@ -18,16 +18,16 @@ function BestSection() {
             className='absolute left-0 top-[100px] md:top-[176px] bg-pink-700 rounded-[50px] opacity-75 w-[150px] md:w-[270px] h-[150px] md:h-[270px]'
           />
           <div
-            className='absolute left-[60%] top-[120px] md:top-[176px] bg-blue-700 rounded-[50px] opacity-75 w-[100px] md:w-[161px] h-[100px] md:h-[161px]'
+            className='absolute left-[34%] top-0 md:top-0 bg-blue-700 rounded-[50px] opacity-75 w-[100px] md:w-[161px] h-[100px] md:h-[161px]'
           />
           <div
-            className='absolute left-[80%] top-[180px] md:top-[325px] bg-brown-500 rounded-[30px] opacity-75 w-[80px] md:w-[130px] h-[80px] md:h-[130px]'
+            className='absolute left-[57%] bottom-0 md:bottom-[10%] bg-brown-500 rounded-[30px] opacity-75 w-[80px] md:w-[130px] h-[80px] md:h-[130px]'
           />
           <div
-            className='absolute left-[90%] top-[200px] md:top-[315px] bg-purple-500 rounded-[30px] opacity-75 w-[120px] md:w-[202px] h-[120px] md:h-[202px]'
+            className='absolute right-[10%] bottom-0 md:bottom-0 bg-purple-500 rounded-[30px] opacity-75 w-[120px] md:w-[202px] h-[120px] md:h-[202px]'
           />
           <div
-            className='absolute left-0 bottom-[40px] md:bottom-[64px] bg-green-900 rounded-[50px] opacity-75 w-[120px] md:w-[202px] h-[120px] md:h-[202px]'
+            className='absolute right-0 top-[15%] md:bottom-[64px] bg-green-900 rounded-[50px] opacity-75 w-[120px] md:w-[202px] h-[120px] md:h-[202px]'
           />
 
           {/* Cards */}
@@ -35,7 +35,7 @@ function BestSection() {
             {[1, 2, 3].map((_, index) => (
               <div
                 key={index}
-                className="relative bg-blue-950 rounded-lg shadow-2xl shadow-slate-500 overflow-hidden"
+                className="relative bg-black-primary rounded-lg shadow-2xl shadow-slate-500 overflow-hidden"
               >
                 <img
                   src={`./src/assets/img/bestSection/card-image-${

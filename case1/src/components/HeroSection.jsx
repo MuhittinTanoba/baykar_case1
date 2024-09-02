@@ -5,18 +5,18 @@ const HeroSection = () => {
     <section className="px-4 md:px-8 lg:px-16">
       <div className="container mx-auto flex flex-col lg:flex-row items-center">
         <div className="max-w-full lg:max-w-[700px] mt-12 md:mt-20 lg:mt-[83px] lg:mr-[80px] text-center lg:text-left">
-          <h1 className="text-4xl md:text-5xl lg:text-[72px] font-bold text-gray-900 mb-6 lg:mb-8">
+          <h1 className="text-4xl md:text-5xl lg:text-[72px] font-bold text-black-primary mb-6 lg:mb-8">
             Collectible Sneakers
           </h1>
-          <p className="text-base md:text-lg text-gray-600 mb-6 lg:mb-8">
+          <p className="text-base md:text-lg text-black-primary mb-6 lg:mb-8">
             Sit elit feugiat turpis sed integer integer accumsan turpis. Sed suspendisse nec lorem mauris. Pharetra, eu imperdiet ipsum ultrices amet.
           </p>
           <div className="flex justify-center lg:justify-start space-x-4">
-            <button className="text-base md:text-lg lg:text-[20px] font-medium border-2 border-brown-700 text-brown-700 rounded-[8px] py-3 lg:py-4 px-4 hover:bg-red-50">
-              <p className='px-4'>Sign up now</p>
+            <button className="text-base md:text-lg lg:text-[20px] font-medium border-2 border-brown-primary rounded-[8px] py-3 lg:py-4 px-4 hover:bg-red-50">
+              <p className='px-4 text-brown-primary'>Sign up now</p>
             </button>
-            <button className="flex items-center text-brown-700 px-2 py-3">
-              <img src='./src/assets/img/play_button.png' className="w-6 h-6 md:w-8 md:h-8" alt="Play Demo" /> 
+            <button className="flex items-center text-brown-primary px-2 py-3">
+              <img src='./src/assets/img/play_button.png' className="w-6 h-6 md:w-6 md:h-6" alt="Play Demo" /> 
               <p className='px-2'>Watch Demo</p>
             </button>
           </div>

@@ -17,16 +17,16 @@ function MapSection() {
         </div>
 
         {/* Dots */}
-        <div className="absolute bottom-[45%] right-[14%] w-3 h-3 md:w-4 md:h-4 border-[2px] md:border-[3px] border-green-500 rounded-full" />
-        <div className="absolute bottom-[19%] right-[11%] w-4 h-4 md:w-6 md:h-6 border-[2px] md:border-[3px] border-green-500 rounded-full" />
-        <div className="absolute bottom-[43%] right-[24%] w-4 h-4 md:w-6 md:h-6 border-[2px] md:border-[3px] border-green-500 rounded-full" />
-        <div className="absolute bottom-[28%] right-[42%] w-4 h-4 md:w-6 md:h-6 border-[2px] md:border-[3px] border-green-500 rounded-full" />
-        <div className="absolute bottom-[23%] left-[34%] w-3 h-3 md:w-4 md:h-4 border-[2px] md:border-[3px] border-green-500 rounded-full" />
-        <div className="absolute bottom-[18%] left-[31%] w-4 h-4 md:w-6 md:h-6 border-[2px] md:border-[3px] border-green-500 rounded-full" />
-        <div className="absolute top-[10%] left-[39%] w-3 h-3 md:w-4 md:h-4 border-[2px] md:border-[3px] border-green-500 rounded-full" />
-        <div className="absolute top-[28%] left-[31%] w-5 h-5 md:w-7 md:h-7 border-[2px] md:border-[3px] border-green-500 rounded-full" />
-        <div className="absolute top-[46%] left-[20%] w-4 h-4 md:w-6 md:h-6 border-[2px] md:border-[3px] border-green-500 rounded-full" />
-        <div className="absolute top-[36%] left-[13%] w-4 h-4 md:w-6 md:h-6 bg-green-400 border-[2px] md:border-[3px] border-green-500 rounded-full" />
+        <div className="absolute bottom-[45%] right-[14%] w-3 h-3 md:w-4 md:h-4 border-[2px] md:border-[3px] border-[#A3E635] rounded-full" />
+        <div className="absolute bottom-[19%] right-[11%] w-4 h-4 md:w-6 md:h-6 border-[2px] md:border-[3px] border-[#A3E635] rounded-full" />
+        <div className="absolute bottom-[43%] right-[24%] w-4 h-4 md:w-6 md:h-6 border-[2px] md:border-[3px] border-[#A3E635] rounded-full" />
+        <div className="absolute bottom-[28%] right-[42%] w-4 h-4 md:w-6 md:h-6 border-[2px] md:border-[3px] border-[#A3E635] rounded-full" />
+        <div className="absolute bottom-[23%] left-[34%] w-3 h-3 md:w-4 md:h-4 border-[2px] md:border-[3px] border-[#A3E635] rounded-full" />
+        <div className="absolute bottom-[18%] left-[31%] w-4 h-4 md:w-6 md:h-6 border-[2px] md:border-[3px] border-[#A3E635] rounded-full" />
+        <div className="absolute top-[10%] left-[39%] w-3 h-3 md:w-4 md:h-4 border-[2px] md:border-[3px] border-[#A3E635] rounded-full" />
+        <div className="absolute top-[28%] left-[31%] w-5 h-5 md:w-7 md:h-7 border-[2px] md:border-[3px] border-[#A3E635] rounded-full" />
+        <div className="absolute top-[46%] left-[20%] w-4 h-4 md:w-6 md:h-6 border-[2px] md:border-[3px] border-[#A3E635] rounded-full" />
+        <div className="absolute top-[36%] left-[13%] w-4 h-4 md:w-6 md:h-6 bg-[#D9F99D] border-[2px] md:border-[3px] border-[#A3E635] rounded-full" />
 
         <div className="absolute top-[-125px] left-[14.5%] transform translate-x-[-50%] w-[180px] md:w-[240px] bg-white rounded-lg shadow-lg z-10">
           <img

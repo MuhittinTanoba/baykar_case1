@@ -17,31 +17,31 @@ function WhyJoinUs() {
         {/* Sol taraf: Metin kısmı */}
         <div className="shadow-2xl flex flex-col lg:flex-row items-center">
           <div className="text-left my-6 mx-4 lg:my-[111px] lg:mx-20">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-800 mb-4">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-black-primary mb-4">
               Why join us
             </h2>
             <ul className="list-none space-y-2 mb-6 text-base md:text-lg lg:text-xl">
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✔</span>
-                <p className="text-gray-700">
+                <span className="text-[#15803D] mr-2">✔</span>
+                <p className="text-black-primary">
                   Est et in pharetra magna adipiscing ornare aliquam.
                 </p>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✔</span>
-                <p className="text-gray-700">
+                <span className="text-[#15803D] mr-2">✔</span>
+                <p className="text-black-primary">
                   Tellus arcu sed consequat ac velit ut eu blandit.
                 </p>
               </li>
               <li className="flex items-start">
-                <span className="text-green-500 mr-2">✔</span>
-                <p className="text-gray-700">
+                <span className="text-[#15803D] mr-2">✔</span>
+                <p className="text-black-primary  ">
                   Ullamcorper ornare in et egestas dolor orci.
                 </p>
               </li>
             </ul>
-            <div className="text-center">
-            <button className="text-center border-[2px] border-brown-700 text-brown-700 rounded-[8px] py-2 px-4 md:py-3 md:px-6 lg:py-4 lg:px-8 font-medium text-base md:text-lg lg:text-xl">
+            <div className="text-center md:text-start">
+            <button className="text-center border-[2px] border-brown-primary rounded-[8px] py-2 px-4 md:py-3 md:px-6 lg:py-4 lg:px-8 font-medium text-base md:text-lg lg:text-xl">
               Sign up now
             </button>
             </div>

@@ -5,12 +5,12 @@ const FeatureSection = () => {
     {
       title: "Nibh viverra",
       description: "Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.",
-      icon: "./src/assets/img/feature/Icon-1.png",
+      icon: "./src/assets/img/feature/Icon.png",
     },
     {
       title: "Cursus amet",
       description: "Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.",
-      icon: "./src/assets/img/feature/Icon-1.png",
+      icon: "./src/assets/img/feature/tunnel.png",
     },
     {
       title: "Ipsum fermentum",
@@ -21,7 +21,7 @@ const FeatureSection = () => {
 
   return (
     <section className="mt-12 md:mt-20 overflow-x-hidden">
-      <div className="container mx-auto py-10 px-4 md:px-10 lg:px-20">
+      <div className="container mx-auto py-10 px-4 md:px-10 lg:px-20 mb-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {features.map((feature, index) => (
             <div key={index} className="text-center md:text-left">
