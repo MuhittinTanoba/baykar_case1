@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Navbar />
       <div className='relative'>
-        <div className="triangle-bg"></div>
+        <div className="triangle-bg "></div>
         <HeroSection />
         <FeatureSection />
       </div>
@@ -23,7 +23,14 @@ function App() {
       <WhyJoinUs />
       <Testimonials />
       <CollectionSection />
+
+      {
+        /*
+
       <MapSection />
+        */ 
+      }
+
       <Footer />
     </div>
   );

@@ -49,10 +49,10 @@ const Testimonials = () => {
   return (
     <section>
       <div className="flex mb-10 mt-20 mx-20 justify-between">
-        <h2 className="text-[56px] font-extrabold text-gray-800">
+        <h2 className="text-[28px] md:text-[56px] font-extrabold text-gray-800">
           Because they love us
         </h2>
-        <div className="flex justify-center items-center gap-6">
+        <div className="hidden md:flex justify-center items-center gap-6">
           <img
             src="./src/assets/img/testimonials/Button.png"
             alt="icon"
@@ -73,13 +73,27 @@ const Testimonials = () => {
 
         <Swiper
           modules={[Navigation, FreeMode]}
-          spaceBetween={24}
-          slidesPerView={3}
+          spaceBetween={16} // Adjust space between slides
+          slidesPerView={1} // Ensure only one slide is visible at a time
           freeMode={true}
+          breakpoints={{
+            640: {
+              slidesPerView: 1, // 1 slide per view on mobile devices
+              spaceBetween: 16,
+            },
+            768: {
+              slidesPerView: 2, // 2 slides per view on tablets
+              spaceBetween: 24,
+            },
+            1024: {
+              slidesPerView: 3, // 3 slides per view on larger screens
+              spaceBetween: 24,
+            },
+          }}
           className="mySwiper"
         >
           {testimonials.map((testimonial, index) => (
-            <SwiperSlide key={index} className={index === 0 ? "ml-20" : ""}>
+            <SwiperSlide key={index} className="flex justify-center">
               <div className="p-6 mt-10 py-4 shadow-xl bg-white border-[3px] rounded-[20px]">
                 <div className="mx-8 mt-8">
                   <h3 className="text-2xl font-bold py-[3px]">
@@ -87,7 +101,7 @@ const Testimonials = () => {
                   </h3>
                 </div>
                 <div className="h-40 mt-4 ml-8 mr-16">
-                  <p className="text-black text-2xl">{testimonial.text}</p>
+                  <p className="text-black text-xl md:text-2xl">{testimonial.text}</p>
                 </div>
                 <div className="mx-8 mb-8 flex items-center mt-4">
                   <img

@@ -10,3 +10,11 @@
   border-right: 1428px solid #FEF3C7;
   z-index: -10;
 }
+
+@media screen and (max-width: 768px) {
+  .triangle-bg {
+    margin-top: 300px;
+    border-right: 1428px solid #FEF3C7;
+    border-top: 950px solid transparent;
+  }
+}
