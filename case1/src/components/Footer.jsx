@@ -4,7 +4,7 @@ import { CiGlobe } from "react-icons/ci";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-10 px-5 md:px-20">
+    <footer className="bg-black-primary text-white py-10 px-5 md:px-20">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 text-center md:text-left">
           {/* First Column */}

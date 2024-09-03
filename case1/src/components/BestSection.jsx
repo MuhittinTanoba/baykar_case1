@@ -3,7 +3,7 @@ import React from "react";
 function BestSection() {
   return (
     <section className="bg-black-primary overflow-hidden">
-      <div className="flex flex-col md:flex-row justify-between items-center p-6 md:p-20 pb-[50px]">
+      <div className="flex flex-col md:flex-row justify-between items-center p-12 md:p-20 pb-[50px]">
         <h2 className="text-white text-[32px] md:text-[56px] font-extrabold mb-4 md:mb-0">
           The best of the best
         </h2>
@@ -15,19 +15,19 @@ function BestSection() {
         <div className="relative px-0 md:px-[45px] pb-[25px] pt-[30px]">
           {/* Backlights */}
           <div
-            className='absolute left-0 top-[100px] md:top-[176px] bg-pink-700 rounded-[50px] opacity-75 w-[150px] md:w-[270px] h-[150px] md:h-[270px]'
+            className='absolute  top-[23%] left-[5%] md:left-0  md:top-[176px] bg-[#BE185D] rounded-[50px] opacity-75 w-[150px] md:w-[270px] h-[150px] md:h-[270px]'
           />
           <div
-            className='absolute left-[34%] top-0 md:top-0 bg-blue-700 rounded-[50px] opacity-75 w-[100px] md:w-[161px] h-[100px] md:h-[161px]'
+            className='absolute top-[44%] right-[-15px] md:left-[34%] md:top-0 bg-[#0369A1] rounded-[50px] opacity-75 w-[100px] md:w-[161px] h-[100px] md:h-[161px]'
           />
           <div
-            className='absolute left-[57%] bottom-0 md:bottom-[10%] bg-brown-500 rounded-[30px] opacity-75 w-[80px] md:w-[130px] h-[80px] md:h-[130px]'
+            className='absolute left-[57%] md:bottom-[10%] bg-[#B45309] rounded-[30px] opacity-75 w-[80px] md:w-[130px] h-[80px] md:h-[130px]'
           />
           <div
-            className='absolute right-[10%] bottom-0 md:bottom-0 bg-purple-500 rounded-[30px] opacity-75 w-[120px] md:w-[202px] h-[120px] md:h-[202px]'
+            className='absolute  left-[-4%] bottom-[20%] md:left-[75%] md:bottom-0 bg-[#A21CAF] rounded-[30px] opacity-75 w-[120px] md:w-[202px] h-[120px] md:h-[202px]'
           />
           <div
-            className='absolute right-0 top-[15%] md:bottom-[64px] bg-green-900 rounded-[50px] opacity-75 w-[120px] md:w-[202px] h-[120px] md:h-[202px]'
+            className='absolute right-0 top-[15%] md:bottom-[64px] bg-[#15803D] rounded-[50px] opacity-75 w-[120px] md:w-[202px] h-[120px] md:h-[202px]'
           />
 
           {/* Cards */}
@@ -42,7 +42,7 @@ function BestSection() {
                     index + 1
                   }.png`}
                   alt={`Card ${index + 1}`}
-                  className="w-full h-32 md:h-48 object-cover"
+                  className="w-full h-48 object-cover"
                 />
                 <div className="">
                   <h3 className="text-[20px] md:text-[24px] font-bold mt-4 md:mt-8 mx-4 md:mx-8 mb-2 md:mb-4 text-white">

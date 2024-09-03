@@ -11,7 +11,7 @@ function WhyJoinUs() {
           className="max-w-full object-cover mr-16"
         />
       </div>
-      <div className="bg-green-800 absolute top-[50%] right-[0] w-[85px] h-[86px] rounded-[50px] opacity-75 z-20 transform translate-x-[50%] md:translate-x-[0%]"/>
+      <div className="bg-green-800 absolute bottom-[1%] md:top-[66%] md:right-[42%] w-[85px] h-[86px] rounded-[50px] opacity-75 z-20 transform translate-x-[50%] md:translate-x-[0%]"/>
 
       <div className="relative z-10 py-12 px-6 md:py-20 md:px-10 lg:py-40 lg:px-20">
         {/* Sol taraf: Metin kısmı */}

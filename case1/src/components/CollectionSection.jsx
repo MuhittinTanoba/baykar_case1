@@ -32,7 +32,7 @@ function CollectionSection() {
                     alt="Podcast"
                     className="w-6 h-6"
                   />
-                  <p className="text-[20px] text-black-primary font-medium pl-4 pr-2">
+                  <p className="text-[20px] whitespace-nowrap text-black-primary font-medium pl-4 pr-2">
                     Bibendum tellus
                   </p>
                   <img
@@ -51,7 +51,7 @@ function CollectionSection() {
                       alt={button.text}
                       className="w-6 h-6 text-black-primary"
                     />
-                    <p className="text-[20px] text-black-primary font-medium pl-4 pr-2">
+                    <p className="text-[20px] whitespace-nowrap text-black-primary font-medium pl-4 pr-2">
                       {button.text}
                     </p>
                   </div>

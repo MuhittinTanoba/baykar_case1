@@ -32,7 +32,7 @@ function MapSection() {
           <img
             src="./src/assets/img/map/Picture.png"
             alt="Cool Shoes"
-            className="w-full h-auto rounded-t-lg"
+            className="w-full h-auto rounded-t-lg shadow-md"
           />
           <div className="p-2 md:p-4 text-center bg-[#E2E8F0] rounded-[5px]">
             <p className="text-black text-xs md:text-base">Emma Simpson collected one pair of Cool Shoes</p>
