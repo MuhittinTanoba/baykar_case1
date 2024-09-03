@@ -1,5 +1,6 @@
 # React + Vite
 
-for run:
-  npm install
+for run:\
+  cd case1\
+  npm install\
   npm run dev
